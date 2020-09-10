@@ -23,7 +23,6 @@ int main() {
 	int rng;
 	int exit2 = 0;
 	int playagain = 0;
-
 	do {
 		std::cout << "----------Welcome to Tic Tac Toe!----------" << std::endl;
 		std::cout << std::endl;
@@ -400,7 +399,6 @@ int main() {
 				}
 			} while (exit == 0);
 		}
-
 		else {
 			std::cout << "Invalid input" << std::endl;
 		}
@@ -413,8 +411,5 @@ int main() {
 		 if (playagain == 2) {
 			playagain = 1;
 		}
-		 
-		 
-		
 	}while (playagain == 0);
 }
